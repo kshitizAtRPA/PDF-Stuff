@@ -9,7 +9,7 @@ def rotate(pdf):
             file = PdfFileWriter()
             file.addPage(
                 inputpdf.getPage(i).rotate_clockwise(
-                    int(input("Enter rotation angle in clockwise: "))
+                    int(input("Enter rotation angle (in clockwise): "))
                 )
             )
             with open("%s-rotated.pdf" % (pdf.replace(".pdf", "")), "wb") as result:
