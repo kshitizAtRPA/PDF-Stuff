@@ -25,6 +25,8 @@
 ## Rotate
 - For rotating, make sure its a splitted file and use rotate.py
 - You'll have to specify the angle in clockwise direction in which you want the file rotated. I've not put any validation or exception handling so use wisely.
+
     ```
     py rotate.py
     ```
+    
